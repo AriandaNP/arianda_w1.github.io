@@ -1,0 +1,29 @@
+body {
+    font-family: "Avenir Next";
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto
+}
+
+.top-wrapper {
+    padding: 100px 0 100px 0;
+    background-size: cover;
+    background-color: gray;
+}
+
+.top-wrapper {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
