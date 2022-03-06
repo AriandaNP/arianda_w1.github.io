@@ -1,5 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     font-family: "Avenir Next";
+}
+
+.clear {
+    clear: left;
 }
 
 li {
@@ -22,8 +31,63 @@ a {
     background-color: gray;
 }
 
-.top-wrapper {
+.top-wrapper h2{
     font-size: 24px;
     letter-spacing: 5px;
     margin-bottom: 25px;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: blue;
+    cursor: pointer;
+    box-shadow: 0 7px darkblue;
+}
+
+.lesson-wrapper {
+    height: 500px;
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: left;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+}  
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    height: 120px;
+    padding: 40px;
+}
+  
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
 }
